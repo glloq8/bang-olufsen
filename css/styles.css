@@ -151,7 +151,7 @@
   width: 100%;
   height: auto;
   background: url(../images/video-placeholder.jpg) center no-repeat;
-  margin-bottom: calc(var(--gap) * 1);
+  margin-bottom: calc(var(--gap) * 5);
 }
 
 #bo-landing .video-legend {
@@ -160,7 +160,7 @@
 }
 
 #bo-landing .video-legend img {
-  max-width: 33%;
+  max-width: 40%;
 }
 
 #bo-landing section {
