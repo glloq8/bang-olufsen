@@ -12,14 +12,14 @@
 @font-face {
   font-family: "Gotham-Medium";
   font-weight: 400;
-  src: url("../fonts/Gotham-Medium.eot?") format("eot"), url("../fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.woff2") format("woff2");
+  src: url("../fonts/gotham-medium.eot?") format("eot"), url("../fonts/gotham-medium.ttf") format("truetype"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Gotham-Book";
   font-weight: 400;
-  src: url("../fonts/Gotham-Book.eot?") format("eot"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.woff2") format("woff2");
+  src: url("../fonts/gotham-book.eot?") format("eot"), url("../fonts/gotham-book.ttf") format("truetype"), url("../fonts/gotham-book.woff") format("woff"), url("../fonts/gotham-book.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -369,8 +369,9 @@
   }
 
   #bo-landing video {
-    height: 550px;
+    height: auto;
     width: auto;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

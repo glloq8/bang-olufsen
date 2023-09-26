@@ -70,8 +70,8 @@
   }
   
   @include font-face("Baskerville", "../fonts/Baskerville", 400, null, woff woff2);
-  @include font-face("Gotham-Medium", "../fonts/Gotham-Medium", 400, null, eot ttf woff woff2);
-  @include font-face("Gotham-Book", "../fonts/Gotham-Book", 400, null, eot ttf woff woff2);
+  @include font-face("Gotham-Medium", "../fonts/gotham-medium", 400, null, eot ttf woff woff2);
+  @include font-face("Gotham-Book", "../fonts/gotham-book", 400, null, eot ttf woff woff2);
   
   #bo-landing {
     --gap: #{$gap};
@@ -376,8 +376,9 @@
         justify-content: center;
       }
       video {
-        height: 550px;
+        height: auto;
         width: auto;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
       }
