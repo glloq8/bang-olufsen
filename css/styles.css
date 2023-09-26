@@ -116,7 +116,7 @@
   content: "";
   position: absolute;
   display: block;
-  background: url(../images/icon-play.svg) center no-repeat;
+  background: url(/content/static/bcom/evenements/2021/09_son-10/icon-play.svg) center no-repeat;
   top: 50%;
   left: 50%;
   width: 50px;
@@ -150,7 +150,7 @@
 #bo-landing video {
   width: 100%;
   height: auto;
-  background: url(../images/video-placeholder.jpg) center no-repeat;
+  background: url(/content/static/bcom/evenements/2021/09_son-10/images/video-placeholder.jpg) center no-repeat;
   margin-bottom: calc(var(--gap) * 5);
 }
 
@@ -203,17 +203,17 @@
 }
 
 #bo-landing section.casques .section-title {
-  background-image: url(../images/bg-casques.jpg);
+  background-image: url(/content/static/bcom/evenements/2021/09_son-10/images/bg-casques.jpg);
   background-position: top center;
 }
 
 #bo-landing section.enceintes .section-title {
-  background-image: url(../images/bg-enceintes-portables.jpg);
+  background-image: url(/content/static/bcom/evenements/2021/09_son-10/images/bg-enceintes-portables.jpg);
   background-position: top center;
 }
 
 #bo-landing section.enceintes-connectees .section-title {
-  background-image: url(../images/bg-enceintes-connectees.jpg);
+  background-image: url(/content/static/bcom/evenements/2021/09_son-10/images/bg-enceintes-connectees.jpg);
   background-position: center;
 }
 
