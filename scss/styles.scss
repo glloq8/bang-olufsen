@@ -357,7 +357,8 @@
     }
     .certif .txt-certif {
       flex: 1;
-      @include font-size(1.6);
+      @include font-size(1.2);
+      line-height: 1.4;
       text-align: center;
     }
     .certif .txt-certif strong {

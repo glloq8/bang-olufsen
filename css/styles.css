@@ -340,8 +340,9 @@
 
 #bo-landing .certif .txt-certif {
   flex: 1;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.4;
   text-align: center;
 }
 
